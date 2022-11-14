@@ -17,14 +17,15 @@ class PickerKeyboard extends Component {
       visible: false,
       width: Dimensions.get('window').width
     }
+    this.eventListener = null
   }
 
   componentDidMount() {
-    Dimensions.addEventListener('change', this.updateDimensions)
+    this.eventListener = Dimensions.addEventListener('change', this.updateDimensions)
   }
 
   componentWillUnmount() {
-    Dimensions.removeEventListener('change', this.updateDimensions)
+    this.eventListener && this.eventListener.remove()
   }
 
   updateDimensions = () => {
