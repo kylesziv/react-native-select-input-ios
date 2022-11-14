@@ -46,6 +46,7 @@
   "devDependencies": {
     "babel-eslint": "*",
     "babel-preset-react-native": "*",
+    "deprecated-react-native-prop-types": "^2.3.0",
     "eslint": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-prettier": "*",
@@ -55,6 +56,6 @@
     "react": "16.5.0",
     "react-native": "0.57.2",
     "react-test-renderer": "*",
-    "deprecated-react-native-prop-types": "^2.3.0"
+    "@react-native-picker/picker": "^2.4.8"
   }
 }
