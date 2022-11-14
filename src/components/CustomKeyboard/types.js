@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
-import { Text, ViewPropTypes } from 'react-native'
+import { Text } from 'react-native'
+import { ViewPropTypes } from "deprecated-react-native-prop-types"
 
 export default {
   buttonsTextStyle: PropTypes.oneOfType([
