@@ -6,7 +6,7 @@ export default {
   text: PropTypes.string.isRequired,
   textAlign: PropTypes.string.isRequired,
   textStyle: PropTypes.oneOfType([
-    Text.propTypes.style,
-    PropTypes.arrayOf(Text.propTypes.style)
+    Text.propTypes,
+    PropTypes.arrayOf(Text.propTypes)
   ])
 }

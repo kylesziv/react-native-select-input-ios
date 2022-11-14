@@ -4,16 +4,16 @@ import { ViewPropTypes } from "deprecated-react-native-prop-types"
 
 export default {
   buttonsTextStyle: PropTypes.oneOfType([
-    Text.propTypes.style,
-    PropTypes.arrayOf(Text.propTypes.style)
+    Text.propTypes,
+    PropTypes.arrayOf(Text.propTypes)
   ]),
   buttonsViewStyle: PropTypes.oneOfType([
     ViewPropTypes.style,
     PropTypes.arrayOf(ViewPropTypes.style)
   ]),
   pickerItemStyle: PropTypes.oneOfType([
-    Text.propTypes.style,
-    PropTypes.arrayOf(Text.propTypes.style)
+    Text.propTypes,
+    PropTypes.arrayOf(Text.propTypes)
   ]),
   pickerViewStyle: PropTypes.oneOfType([
     ViewPropTypes.style,

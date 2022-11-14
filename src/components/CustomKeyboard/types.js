@@ -4,8 +4,8 @@ import { ViewPropTypes } from "deprecated-react-native-prop-types"
 
 export default {
   buttonsTextStyle: PropTypes.oneOfType([
-    Text.propTypes.style,
-    PropTypes.arrayOf(Text.propTypes.style)
+    Text.propTypes,
+    PropTypes.arrayOf(Text.propTypes)
   ]),
   buttonsViewStyle: PropTypes.oneOfType([
     ViewPropTypes.style,
